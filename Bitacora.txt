@@ -1,0 +1,337 @@
+C:\Users\Anthony\Desktop\DataBaseSimulador\ui> cd .. PS C:\Users\Anthony\Desktop\DataBaseSimulador> tree /f Listado de rutas de carpetas El número de serie del volumen es A827-EACD C:. ├───data │ Datos_Generales_A_B_C_D.json │ Datos_Generales_D_F_H_I.json │ Datos_Generales_G.json │ Datos_Generales_I_J_K_L.json │ Definicion_Completa_E_F_H_I.json │ Definicion_Completa_G.json │ Definicion_Completa_I_J_K_L.json │ Estadisticas_Jugadores_A_B_C_D.json │ Estadisticas_Jugadores_E_F_H_I.json │ Estadisticas_Jugadores_G.json │ Estadisticas_Jugadores_I_J_K_L.json │ Jugadores_A_B_C_D.json │ Jugadores_E_F_H_I.json │ Jugadores_G.json │ Jugadores_I_J_K_L.json │ LeerA_B_C_D.txt │ Leer_E_F_H_I.txt │ Leer_G.txt │ Leer_I_J_K_L.txt │ Porteria_A_B_C_D.json │ Porteria_E_F_H_I.json │ Porteria_G.json │ Porteria_I_J_K_L.json │ Rendimiento_Equipo_A_B_C_D.json │ Rendimiento_Equipo_E_F_H_I.json │ Rendimiento_Equipo_G.json │ Rendimiento_Equipo_I_J_K_L.json │ Tiros_A_B_C_D.json │ Tiros_E_F_H_I.json │ Tiros_G.json │ Tiros_I_j_K_L.json │ ├───Ecudos │ alemania.png │ arabiasaudita.png │ argelia.png │ argentina.png │ australia.png │ austria.png │ belgica.png │ bosnia.png │ brasil.png │ cabo_verde.png │ canada.png │ colombia.png │ congo.png │ coreadelsur.png │ costa_de_marfil.png │ croacia.png │ curazao.png │ ecuador.png │ egipto.png │ escocia.png │ espana.png │ francia.png │ ghana.png │ haiti.png │ inglaterra.png │ irak.png │ iran.png │ japon.png │ jordan.png │ marruecos.png │ mexico.png │ noruega.png │ nuevazelanda.png │ paisesbajos.png │ panama.png │ paraguay.png │ portugal.png │ qatar.png │ republicacheca.png │ senegal.png │ sudafrica.png │ suecia.png │ suiza.png │ tunez.png │ turquia.png │ uruguay.png │ usa.png │ uzbekistan.png │ ├───engine │ │ cache_system.py │ │ config.py │ │ data_manager.py │ │ engine.py │ │ main.py │ │ normalizer.py │ │ ranking.py │ │ scoring_core.py │ │ simulation.py │ │ variable_manager.py │ │ variable_registry.py │ │ __init__.py │ │ │ └───__pycache__ │ cache_system.cpython-311.pyc │ config.cpython-311.pyc │ data_manager.cpython-311.pyc │ engine.cpython-311.pyc │ main.cpython-311.pyc │ normalizer.cpython-311.pyc │ ranking.cpython-311.pyc │ scoring_core.cpython-311.pyc │ simulation.cpython-311.pyc │ variable_manager.cpython-311.pyc │ variable_registry.cpython-311.pyc │ __init__.cpython-311.pyc │ └───ui │ dashboard.py │ SharpLab_Plantilla_Mundial2026.xlsx │ __init__.py │ └───__pycache__ dashboard.cpython-311.pyc __init__.cpython-311.pyc PS C:\Users\Anthony\Desktop\DataBaseSimulador>
+
+
+# PROYECTO: MOTOR DE ANÁLISIS MULTIVARIABLE DE SELECCIONES NACIONALES
+
+## DESCRIPCIÓN GENERAL
+
+El proyecto ya no debe considerarse un "simulador del Mundial".
+
+La arquitectura actual se parece mucho más a un motor genérico de evaluación y comparación de selecciones nacionales basado en múltiples variables configurables.
+
+El Mundial 2026 es solamente una aplicación futura del motor.
+
+La filosofía principal es:
+
+* Ninguna variable es obligatoria.
+* Todas las variables pueden activarse o desactivarse.
+* Todas las variables poseen un peso configurable.
+* El usuario puede crear variables nuevas.
+* El usuario no está obligado a confiar en una fórmula fija.
+* El resultado final depende de las variables activas y de sus pesos.
+
+El sistema intenta evitar las "cajas negras".
+
+Cada resultado debe poder explicarse mostrando qué variables contribuyeron al puntaje final.
+
+---
+
+# ARQUITECTURA GENERAL
+
+data/
+Base de datos de estadísticas.
+
+engine/
+Núcleo matemático y lógico.
+
+ui/
+Interfaz gráfica.
+
+Ecudos/
+Recursos visuales.
+
+---
+
+# FLUJO COMPLETO DEL SISTEMA
+
+JSON
+↓
+DataManager
+↓
+VariableRegistry
+↓
+VariableManager
+↓
+Normalizer
+↓
+ScoringCore
+↓
+RankingEngine
+↓
+SimulationEngine (futuro)
+↓
+UI
+
+---
+
+# COMPONENTES PRINCIPALES
+
+## DataManager
+
+Responsabilidad:
+
+* Leer todos los archivos JSON definidos en config.py.
+* Fusionar información procedente de múltiples archivos.
+* Mantener una estructura única por selección.
+* Calcular estadísticas globales de cada variable.
+
+Funciones principales:
+
+* load_from_json()
+* get_value()
+* get_statistics()
+* get_all_countries()
+
+Resultado:
+
+Transforma múltiples archivos JSON en una estructura uniforme que el motor puede consumir.
+
+---
+
+## VariableRegistry
+
+Responsabilidad:
+
+Mantener el catálogo completo de variables existentes.
+
+Cada variable contiene:
+
+* nombre
+* descripción
+* categoría
+* unidad
+* tipo de dato
+* origen
+* dirección
+* peso por defecto
+* peso actual
+* estado activo
+* valor objetivo opcional
+
+El sistema nunca trabaja directamente con estadísticas.
+
+Trabaja con objetos Variable.
+
+---
+
+## VariableManager
+
+Responsabilidad:
+
+Administrar el estado de las variables.
+
+Permite:
+
+* activar variables
+* desactivar variables
+* modificar pesos
+* consultar variables activas
+
+Es la capa que conecta la configuración del usuario con el motor matemático.
+
+---
+
+## Normalizer
+
+Responsabilidad:
+
+Convertir estadísticas heterogéneas a una escala común.
+
+Problema:
+
+No es posible comparar directamente:
+
+* goles
+* posesión
+* ranking FIFA
+* atajadas
+* edad promedio
+
+Cada métrica tiene escalas distintas.
+
+Solución:
+
+Normalizar todas las variables a una escala común de 0 a 100.
+
+Métodos implementados:
+
+### MIN_MAX
+
+Escala entre mínimo y máximo observados.
+
+### Z_SCORE
+
+Escala basada en distancia respecto a la media.
+
+### PERCENTILE
+
+Escala basada en posición percentilar.
+
+La estrategia puede cambiarse dinámicamente.
+
+---
+
+## Direction
+
+Define cómo debe interpretarse una variable.
+
+MAXIMIZE
+
+Más valor es mejor.
+
+Ejemplos:
+
+* goles
+* victorias
+* puntos
+
+MINIMIZE
+
+Menos valor es mejor.
+
+Ejemplos:
+
+* goles recibidos
+* derrotas
+
+TARGET
+
+Existe un valor ideal.
+
+Ejemplo:
+
+* edad promedio óptima
+
+---
+
+## CacheSystem
+
+Responsabilidad:
+
+Guardar resultados normalizados.
+
+Evita recalcular continuamente los mismos valores.
+
+Se invalida cuando:
+
+* cambian variables
+* cambia normalización
+* cambian datos
+
+---
+
+## ScoringCore
+
+Es el corazón matemático del sistema.
+
+Responsabilidad:
+
+Calcular la puntuación de una selección.
+
+Proceso:
+
+1. Obtener variables activas.
+2. Leer valor de la selección.
+3. Obtener versión normalizada.
+4. Aplicar peso.
+5. Acumular contribuciones.
+6. Generar puntuación final.
+
+Fórmula conceptual:
+
+Score = suma(normalizado × peso) / suma(pesos)
+
+Además genera:
+
+* breakdown detallado
+* contribución por categoría
+* advertencias
+* score deportivo
+* score contextual
+* score total
+
+El diseño prioriza explicabilidad.
+
+---
+
+## RankingEngine
+
+Responsabilidad:
+
+Ordenar selecciones según la puntuación generada por ScoringCore.
+
+Permite:
+
+* ranking completo
+* comparación entre selecciones
+
+---
+
+## SimulationEngine
+
+Actualmente es una capa secundaria.
+
+Su propósito futuro es utilizar los resultados del motor para:
+
+* predicción de partidos
+* simulación de enfrentamientos
+* simulación de torneos
+
+Actualmente el núcleo del proyecto no depende de esta capa.
+
+---
+
+# ESTADO ACTUAL DEL PROYECTO
+
+Muy avanzado:
+
+* Arquitectura modular.
+* Sistema de variables.
+* Sistema de pesos.
+* Registro de variables.
+* Normalización.
+* Scoring.
+* Ranking.
+* Caché.
+
+Parcialmente avanzado:
+
+* Limpieza de base de datos.
+* Definición de catálogo completo de variables.
+
+Pendiente:
+
+* Modelo definitivo de evaluación.
+* Simulación avanzada de partidos.
+* Torneos completos.
+
+---
+
+# PRINCIPAL DESAFÍO ACTUAL
+
+El principal problema ya no es programar.
+
+El principal problema es diseñar el modelo.
+
+Preguntas pendientes:
+
+* ¿Qué variables deben existir?
+* ¿Cuáles son realmente relevantes?
+* ¿Qué categorías deben crearse?
+* ¿Qué pesos iniciales deberían sugerirse?
+* ¿Qué datos faltan?
+* ¿Qué variables derivadas deberían calcularse?
+
+El motor ya puede procesar variables.
+
+La dificultad actual consiste en decidir cuáles variables alimentarán el sistema.
+
+---
+
+# OBSERVACIÓN IMPORTANTE
+
+Actualmente las variables de ejemplo se registran manualmente dentro de main.py.
+
+Esto es útil para pruebas, pero no escala.
+
+A futuro sería recomendable crear un catálogo centralizado de variables, separado del código principal, para evitar registrar cientos de variables manualmente.

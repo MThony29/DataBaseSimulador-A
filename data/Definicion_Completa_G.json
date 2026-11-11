@@ -1,0 +1,110 @@
+{
+  "grupo_a": {
+    "nombre": "Grupo A",
+    "equipos": [
+      {"id": "MEX", "nombre": "México", "codigo_fifa": "MEX"},
+      {"id": "RSA", "nombre": "Sudáfrica", "codigo_fifa": "RSA"},
+      {"id": "KOR", "nombre": "Corea del Sur", "codigo_fifa": "KOR"},
+      {"id": "CZE", "nombre": "República Checa", "codigo_fifa": "CZE"}
+    ]
+  },
+  "grupo_b": {
+    "nombre": "Grupo B",
+    "equipos": [
+      {"id": "USA", "nombre": "Estados Unidos", "codigo_fifa": "USA"},
+      {"id": "NED", "nombre": "Países Bajos", "codigo_fifa": "NED"},
+      {"id": "IRN", "nombre": "Irán", "codigo_fifa": "IRN"},
+      {"id": "UKR", "nombre": "Ucrania", "codigo_fifa": "UKR"}
+    ]
+  },
+  "grupo_c": {
+    "nombre": "Grupo C",
+    "equipos": [
+      {"id": "ARG", "nombre": "Argentina", "codigo_fifa": "ARG"},
+      {"id": "SAU", "nombre": "Arabia Saudita", "codigo_fifa": "SAU"},
+      {"id": "SCO", "nombre": "Escocia", "codigo_fifa": "SCO"},
+      {"id": "MLI", "nombre": "Malí", "codigo_fifa": "MLI"}
+    ]
+  },
+  "grupo_d": {
+    "nombre": "Grupo D",
+    "equipos": [
+      {"id": "FRA", "nombre": "Francia", "codigo_fifa": "FRA"},
+      {"id": "DEN", "nombre": "Dinamarca", "codigo_fifa": "DEN"},
+      {"id": "TUN", "nombre": "Túnez", "codigo_fifa": "TUN"},
+      {"id": "UZB", "nombre": "Uzbekistán", "codigo_fifa": "UZB"}
+    ]
+  },
+  "grupo_e": {
+    "nombre": "Grupo E",
+    "equipos": [
+      {"id": "GER", "nombre": "Alemania", "codigo_fifa": "GER"},
+      {"id": "CUW", "nombre": "Curazao", "codigo_fifa": "CUW"},
+      {"id": "ECU", "nombre": "Ecuador", "codigo_fifa": "ECU"},
+      {"id": "CIV", "nombre": "Costa de Marfil", "codigo_fifa": "CIV"}
+    ]
+  },
+  "grupo_f": {
+    "nombre": "Grupo F",
+    "equipos": [
+      {"id": "BEL", "nombre": "Bélgica", "codigo_fifa": "BEL"},
+      {"id": "COL", "nombre": "Colombia", "codigo_fifa": "COL"},
+      {"id": "JAM", "nombre": "Jamaica", "codigo_fifa": "JAM"},
+      {"id": "IRQ", "nombre": "Irak", "codigo_fifa": "IRQ"}
+    ]
+  },
+  "grupo_g": {
+    "nombre": "Grupo G",
+    "equipos": [
+      {"id": "ESP", "nombre": "España", "codigo_fifa": "ESP"},
+      {"id": "JPN", "nombre": "Japón", "codigo_fifa": "JPN"},
+      {"id": "ALG", "nombre": "Argelia", "codigo_fifa": "ALG"},
+      {"id": "PAR", "nombre": "Paraguay", "codigo_fifa": "PAR"}
+    ]
+  },
+  "grupo_h": {
+    "nombre": "Grupo H",
+    "equipos": [
+      {"id": "POR", "nombre": "Portugal", "codigo_fifa": "POR"},
+      {"id": "MAR", "nombre": "Marruecos", "codigo_fifa": "MAR"},
+      {"id": "CAN", "nombre": "Canadá", "codigo_fifa": "CAN"},
+      {"id": "PAN", "nombre": "Panamá", "codigo_fifa": "PAN"}
+    ]
+  },
+  "grupo_i": {
+    "nombre": "Grupo I",
+    "equipos": [
+      {"id": "BRA", "nombre": "Brasil", "codigo_fifa": "BRA"},
+      {"id": "SUI", "nombre": "Suiza", "codigo_fifa": "SUI"},
+      {"id": "CMR", "nombre": "Camerún", "codigo_fifa": "CMR"},
+      {"id": "QAT", "nombre": "Catar", "codigo_fifa": "QAT"}
+    ]
+  },
+  "grupo_j": {
+    "nombre": "Grupo J",
+    "equipos": [
+      {"id": "ENG", "nombre": "Inglaterra", "codigo_fifa": "ENG"},
+      {"id": "POL", "nombre": "Polonia", "codigo_fifa": "POL"},
+      {"id": "SEN", "nombre": "Senegal", "codigo_fifa": "SEN"},
+      {"id": "VEN", "nombre": "Venezuela", "codigo_fifa": "VEN"}
+    ]
+  },
+  "grupo_k": {
+    "nombre": "Grupo K",
+    "equipos": [
+      {"id": "ITA", "nombre": "Italia", "codigo_fifa": "ITA"},
+      {"id": "CHL", "nombre": "Chile", "codigo_fifa": "CHL"},
+      {"id": "NGA", "nombre": "Nigeria", "codigo_fifa": "NGA"},
+      {"id": "SYR", "nombre": "Siria", "codigo_fifa": "SYR"}
+    ]
+  },
+  "grupo_l": {
+    "nombre": "Grupo L",
+    "equipos": [
+      {"id": "CRO", "nombre": "Croacia", "codigo_fifa": "CRO"},
+      {"id": "MEX", "nombre": "México", "codigo_fifa": "MEX"},
+      {"id": "GHA", "nombre": "Ghana", "codigo_fifa": "GHA"},
+      {"id": "PER", "nombre": "Perú", "codigo_fifa": "PER"}
+    ]
+  }
+}

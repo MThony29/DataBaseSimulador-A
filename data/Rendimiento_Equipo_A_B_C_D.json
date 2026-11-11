@@ -1,0 +1,26 @@
+{
+  "MEX": {
+    "goles_por_partido": 1.00,
+    "goles_recibidos_por_partido": 0.33,
+    "diferencia_goles_por_partido": 0.67,
+    "tiros_al_arco_por90": 1.33,
+    "posesion_promedio": 54.0,
+    "porterias_a_cero_porcentaje": 66.7,
+    "tarjetas_amarillas_por90": 1.33,
+    "tarjetas_rojas_por90": 0.00,
+    "eficacia_disparo": 33.3,
+    "minutos_por_gol": 90.0
+  },
+  "RSA": {
+    "goles_por_partido": 1.60,
+    "goles_recibidos_por_partido": 0.60,
+    "diferencia_goles_por_partido": 1.00,
+    "tiros_al_arco_por90": 2.10,
+    "posesion_promedio": 51.2,
+    "porterias_a_cero_porcentaje": 40.0,
+    "tarjetas_amarillas_por90": 1.50,
+    "tarjetas_rojas_por90": 0.10,
+    "eficacia_disparo": 38.5,
+    "minutos_por_gol": 56.2
+  }
+}

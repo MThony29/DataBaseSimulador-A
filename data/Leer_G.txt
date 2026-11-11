@@ -1,0 +1,8 @@
+data/
+├── equipos_info.json       → Datos generales, plantilla, valor, resultados
+├── rendimiento_equipo.json → Estadísticas brutas de rendimiento
+├── jugadores.json          → Lista completa de jugadores del grupo
+├── estadisticas_jugadores.json → Métricas individuales detalladas
+├── porteria.json           → Datos de arqueros
+├── tiros.json              → Eficiencia de ataque
+└── grupos.json             → Actualizado con el Grupo G

@@ -1,0 +1,127 @@
+{
+  "FRA": {
+    "nombre": "Francia",
+    "grupo": "I",
+    "codigo_fifa": "FRA",
+    "confederacion": "UEFA",
+    "ranking_fifa": 1,
+    "valor_mercado_total": 1480000000,
+    "jugadores_plantilla": 26,
+    "edad_promedio": 27.0,
+    "jugadores_extranjero_pct": 73.1,
+    "entrenador": "Didier Deschamps",
+    "logros": {
+      "mundial": 2,
+      "eurocopa": 2,
+      "nations_league": 1,
+      "confederaciones": 2,
+      "conmebol_uefa": 1
+    },
+    "estadisticas_generales": {
+      "partidos_jugados": 6,
+      "victorias": 5,
+      "empates": 1,
+      "derrotas": 0,
+      "goles_favor": 15,
+      "goles_contra": 4,
+      "diferencia_goles": 11,
+      "puntos": 16,
+      "porterias_a_cero": 3,
+      "tarjetas_amarillas": 6,
+      "tarjetas_rojas": 1
+    },
+    "partidos": [
+      {"fecha": "2025-09-05", "rival": "UKR", "resultado": "W", "gf": 2, "gc": 0, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-09-09", "rival": "ISL", "resultado": "W", "gf": 2, "gc": 1, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-10-10", "rival": "AZE", "resultado": "W", "gf": 3, "gc": 0, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-10-13", "rival": "ISL", "resultado": "D", "gf": 2, "gc": 2, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-11-13", "rival": "UKR", "resultado": "W", "gf": 4, "gc": 0, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-11-16", "rival": "AZE", "resultado": "W", "gf": 3, "gc": 1, "competicion": "Clasificatorias WC"},
+      {"fecha": "2026-03-26", "rival": "BRA", "resultado": "W", "gf": 2, "gc": 1, "competicion": "Amistoso"},
+      {"fecha": "2026-03-29", "rival": "COL", "resultado": "W", "gf": 3, "gc": 1, "competicion": "Amistoso"}
+    ],
+    "proximos_partidos": [
+      {"fecha": "2026-06-16", "rival": "SEN", "competicion": "Mundial 2026 - Grupo I"},
+      {"fecha": "2026-06-22", "rival": "IRQ", "competicion": "Mundial 2026 - Grupo I"},
+      {"fecha": "2026-06-26", "rival": "NOR", "competicion": "Mundial 2026 - Grupo I"}
+    ]
+  },
+  "SEN": {
+    "nombre": "Senegal",
+    "grupo": "I",
+    "codigo_fifa": "SEN",
+    "confederacion": "CAF",
+    "ranking_fifa": 20,
+    "valor_mercado_total": 320000000,
+    "jugadores_plantilla": 24,
+    "edad_promedio": 26.8,
+    "jugadores_extranjero_pct": 95.8,
+    "entrenador": "Aliou Cissé",
+    "logros": {
+      "copa_africa": 1
+    },
+    "estadisticas_generales": {
+      "partidos_jugados": 8,
+      "victorias": 4,
+      "empates": 3,
+      "derrotas": 1,
+      "goles_favor": 12,
+      "goles_contra": 5,
+      "diferencia_goles": 7,
+      "puntos": 15,
+      "porterias_a_cero": 4,
+      "tarjetas_amarillas": 11,
+      "tarjetas_rojas": 0
+    }
+  },
+  "IRQ": {
+    "nombre": "Irak",
+    "grupo": "I",
+    "codigo_fifa": "IRQ",
+    "confederacion": "AFC",
+    "ranking_fifa": 70,
+    "valor_mercado_total": 45000000,
+    "jugadores_plantilla": 23,
+    "edad_promedio": 27.2,
+    "jugadores_extranjero_pct": 17.4,
+    "entrenador": "Jesús Casas",
+    "estadisticas_generales": {
+      "partidos_jugados": 8,
+      "victorias": 3,
+      "empates": 2,
+      "derrotas": 3,
+      "goles_favor": 9,
+      "goles_contra": 8,
+      "diferencia_goles": 1,
+      "puntos": 11,
+      "porterias_a_cero": 3,
+      "tarjetas_amarillas": 14,
+      "tarjetas_rojas": 2
+    }
+  },
+  "NOR": {
+    "nombre": "Noruega",
+    "grupo": "I",
+    "codigo_fifa": "NOR",
+    "confederacion": "UEFA",
+    "ranking_fifa": 35,
+    "valor_mercado_total": 420000000,
+    "jugadores_plantilla": 25,
+    "edad_promedio": 25.9,
+    "jugadores_extranjero_pct": 88.0,
+    "entrenador": "Ståle Solbakken",
+    "estadisticas_generales": {
+      "partidos_jugados": 8,
+      "victorias": 4,
+      "empates": 2,
+      "derrotas": 2,
+      "goles_favor": 14,
+      "goles_contra": 7,
+      "diferencia_goles": 5,
+      "puntos": 14,
+      "porterias_a_cero": 3,
+      "tarjetas_amarillas": 9,
+      "tarjetas_rojas": 0
+    }
+  }
+}

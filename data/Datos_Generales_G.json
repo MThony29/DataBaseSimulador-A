@@ -1,0 +1,127 @@
+{
+  "ESP": {
+    "nombre": "España",
+    "grupo": "G",
+    "codigo_fifa": "ESP",
+    "confederacion": "UEFA",
+    "ranking_fifa": "8",
+    "valor_mercado_total": "945000000",
+    "jugadores_plantilla": "26",
+    "edad_promedio": "26.4",
+    "jugadores_extranjero_pct": "42.3",
+    "entrenador": "Luis de la Fuente",
+    "logros": {
+      "mundial": "1",
+      "eurocopa": "3",
+      "nations_league": "1"
+    },
+    "estadisticas_generales": {
+      "partidos_jugados": "6",
+      "victorias": "4",
+      "empates": "2",
+      "derrotas": "0",
+      "goles_favor": "14",
+      "goles_contra": "2",
+      "diferencia_goles": "12",
+      "puntos": "14",
+      "porterias_a_cero": "4",
+      "tarjetas_amarillas": "5",
+      "tarjetas_rojas": "0"
+    },
+    "proximos_partidos": [
+      {"fecha": "2026-06-15", "rival": "JPN", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-21", "rival": "ALG", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-26", "rival": "PAR", "competicion": "Mundial 2026 - Grupo G"}
+    ]
+  },
+  "JPN": {
+    "nombre": "Japón",
+    "grupo": "G",
+    "codigo_fifa": "JPN",
+    "confederacion": "AFC",
+    "ranking_fifa": "24",
+    "valor_mercado_total": "315000000",
+    "jugadores_plantilla": "25",
+    "edad_promedio": "27.1",
+    "jugadores_extranjero_pct": "64.0",
+    "entrenador": "Hajime Moriyasu",
+    "estadisticas_generales": {
+      "partidos_jugados": "8",
+      "victorias": "5",
+      "empates": "2",
+      "derrotas": "1",
+      "goles_favor": "13",
+      "goles_contra": "4",
+      "diferencia_goles": "9",
+      "puntos": "17",
+      "porterias_a_cero": "5",
+      "tarjetas_amarillas": "8",
+      "tarjetas_rojas": "1"
+    },
+    "proximos_partidos": [
+      {"fecha": "2026-06-15", "rival": "ESP", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-21", "rival": "PAR", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-26", "rival": "ALG", "competicion": "Mundial 2026 - Grupo G"}
+    ]
+  },
+  "ALG": {
+    "nombre": "Argelia",
+    "grupo": "G",
+    "codigo_fifa": "ALG",
+    "confederacion": "CAF",
+    "ranking_fifa": "43",
+    "valor_mercado_total": "185000000",
+    "jugadores_plantilla": "24",
+    "edad_promedio": "27.8",
+    "jugadores_extranjero_pct": "87.5",
+    "entrenador": "Djamel Belmadi",
+    "estadisticas_generales": {
+      "partidos_jugados": "8",
+      "victorias": "3",
+      "empates": "3",
+      "derrotas": "2",
+      "goles_favor": "10",
+      "goles_contra": "7",
+      "diferencia_goles": "3",
+      "puntos": "12",
+      "porterias_a_cero": "3",
+      "tarjetas_amarillas": "12",
+      "tarjetas_rojas": "0"
+    },
+    "proximos_partidos": [
+      {"fecha": "2026-06-15", "rival": "PAR", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-21", "rival": "ESP", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-26", "rival": "JPN", "competicion": "Mundial 2026 - Grupo G"}
+    ]
+  },
+  "PAR": {
+    "nombre": "Paraguay",
+    "grupo": "G",
+    "codigo_fifa": "PAR",
+    "confederacion": "CONMEBOL",
+    "ranking_fifa": "52",
+    "valor_mercado_total": "112000000",
+    "jugadores_plantilla": "23",
+    "edad_promedio": "28.2",
+    "jugadores_extranjero_pct": "69.6",
+    "entrenador": "Daniel Garnero",
+    "estadisticas_generales": {
+      "partidos_jugados": "8",
+      "victorias": "2",
+      "empates": "3",
+      "derrotas": "3",
+      "goles_favor": "7",
+      "goles_contra": "9",
+      "diferencia_goles": "-2",
+      "puntos": "9",
+      "porterias_a_cero": "2",
+      "tarjetas_amarillas": "14",
+      "tarjetas_rojas": "2"
+    },
+    "proximos_partidos": [
+      {"fecha": "2026-06-15", "rival": "ALG", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-21", "rival": "JPN", "competicion": "Mundial 2026 - Grupo G"},
+      {"fecha": "2026-06-26", "rival": "ESP", "competicion": "Mundial 2026 - Grupo G"}
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "ESP004": {
+    "goles": "2",
+    "asistencias": "3",
+    "goles_asistencias": "5",
+    "tarjetas_amarillas": "0",
+    "tarjetas_rojas": "0",
+    "goles_por90": "0.41",
+    "asistencias_por90": "0.62",
+    "pases_clave_por90": "2.48",
+    "intercepciones_por90": "1.24",
+    "duelos_ganados_por90": "3.72"
+  },
+  "ESP005": {
+    "goles": "1",
+    "asistencias": "2",
+    "goles_asistencias": "3",
+    "tarjetas_amarillas": "1",
+    "tarjetas_rojas": "0",
+    "goles_por90": "0.26",
+    "asistencias_por90": "0.53",
+    "pases_clave_por90": "1.85",
+    "intercepciones_por90": "2.12",
+    "duelos_ganados_por90": "4.24"
+  },
+  "JPN003": {
+    "goles": "1",
+    "asistencias": "1",
+    "goles_asistencias": "2",
+    "tarjetas_amarillas": "2",
+    "tarjetas_rojas": "0",
+    "goles_por90": "0.13",
+    "asistencias_por90": "0.13",
+    "intercepciones_por90": "1.69",
+    "duelos_ganados_por90": "3.87",
+    "pases_completados_pct": "92.5"
+  },
+  "JPN004": {
+    "goles": "3",
+    "asistencias": "2",
+    "goles_asistencias": "5",
+    "tarjetas_amarillas": "0",
+    "tarjetas_rojas": "0",
+    "goles_por90": "0.52",
+    "asistencias_por90": "0.34",
+    "tiros_al_arco_por90": "1.55",
+    "dribles_completados_por90": "2.41"
+  }
+}

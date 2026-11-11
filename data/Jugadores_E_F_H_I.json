@@ -1,0 +1,126 @@
+{
+  "GER": [
+    {
+      "id": "GER001",
+      "nombre": "Oliver Baumann",
+      "posicion": "GK",
+      "fecha_nac": "02/06/1990",
+      "edad": 35,
+      "club": "TSG 1899 Hoffenheim",
+      "valor_mercado": 2500000,
+      "partidos_jugados": 6,
+      "titular": 6,
+      "minutos_jugados": 540
+    },
+    {
+      "id": "GER002",
+      "nombre": "Nico Schlotterbeck",
+      "posicion": "DF",
+      "fecha_nac": "01/12/1999",
+      "edad": 26,
+      "club": "Borussia Dortmund",
+      "valor_mercado": 55000000,
+      "partidos_jugados": 3,
+      "titular": 3,
+      "minutos_jugados": 198
+    },
+    {
+      "id": "GER003",
+      "nombre": "Florian Wirtz",
+      "posicion": "MF",
+      "fecha_nac": "03/05/2003",
+      "edad": 23,
+      "club": "Liverpool FC",
+      "valor_mercado": 110000000,
+      "partidos_jugados": 6,
+      "titular": 6,
+      "minutos_jugados": 525
+    },
+    {
+      "id": "GER004",
+      "nombre": "Jamal Musiala",
+      "posicion": "MF",
+      "fecha_nac": "26/02/2003",
+      "edad": 23,
+      "club": "Bayern Múnich",
+      "valor_mercado": 100000000,
+      "partidos_jugados": 5,
+      "titular": 5,
+      "minutos_jugados": 410
+    },
+    {
+      "id": "GER005",
+      "nombre": "Nick Woltemade",
+      "posicion": "FW",
+      "fecha_nac": "14/02/2002",
+      "edad": 24,
+      "club": "Newcastle United",
+      "valor_mercado": 65000000,
+      "partidos_jugados": 6,
+      "titular": 6,
+      "minutos_jugados": 479
+    }
+  ],
+  "CUW": [
+    {
+      "id": "CUW001",
+      "nombre": "Eloy Room",
+      "posicion": "GK",
+      "fecha_nac": "06/02/1989",
+      "edad": 37,
+      "club": "Miami FC",
+      "valor_mercado": 150000,
+      "partidos_jugados": 10,
+      "titular": 10,
+      "minutos_jugados": 900
+    },
+    {
+      "id": "CUW002",
+      "nombre": "Juninho Bacuna",
+      "posicion": "MF",
+      "fecha_nac": "07/08/1997",
+      "edad": 28,
+      "club": "FC Volendam",
+      "valor_mercado": 1700000,
+      "partidos_jugados": 10,
+      "titular": 10,
+      "minutos_jugados": 827
+    },
+    {
+      "id": "CUW003",
+      "nombre": "Leandro Bacuna",
+      "posicion": "MF",
+      "fecha_nac": "21/08/1991",
+      "edad": 34,
+      "club": "Igdir FK",
+      "valor_mercado": 250000,
+      "partidos_jugados": 9,
+      "titular": 9,
+      "minutos_jugados": 784
+    },
+    {
+      "id": "CUW004",
+      "nombre": "Kenji Gorré",
+      "posicion": "FW",
+      "fecha_nac": "29/09/1994",
+      "edad": 31,
+      "club": "Maccabi Haifa",
+      "valor_mercado": 650000,
+      "partidos_jugados": 8,
+      "titular": 7,
+      "minutos_jugados": 630
+    },
+    {
+      "id": "CUW005",
+      "nombre": "Gervane Kastaneer",
+      "posicion": "FW",
+      "fecha_nac": "09/06/1996",
+      "edad": 29,
+      "club": "Terengganu FC",
+      "valor_mercado": 175000,
+      "partidos_jugados": 6,
+      "titular": 4,
+      "minutos_jugados": 224
+    }
+  ]
+}

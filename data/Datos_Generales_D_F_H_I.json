@@ -1,0 +1,81 @@
+{
+  "GER": {
+    "nombre": "Alemania",
+    "grupo": "E",
+    "codigo_fifa": "GER",
+    "confederacion": "UEFA",
+    "ranking_fifa": 10,
+    "valor_mercado_total": 1020000000,
+    "jugadores_plantilla": 27,
+    "edad_promedio": 27.8,
+    "jugadores_extranjero_pct": 25.9,
+    "entrenador": "Julian Nagelsmann",
+    "logros": {
+      "mundial": 4,
+      "eurocopa": 3,
+      "confederaciones": 1
+    },
+    "estadisticas_generales": {
+      "partidos_jugados": 6,
+      "victorias": 5,
+      "empates": 0,
+      "derrotas": 1,
+      "goles_favor": 16,
+      "goles_contra": 3,
+      "diferencia_goles": 13,
+      "puntos": 15,
+      "porterias_a_cero": 4,
+      "tarjetas_amarillas": 8,
+      "tarjetas_rojas": 0
+    },
+    "partidos": [
+      {"fecha": "2025-09-04", "rival": "SVK", "resultado": "L", "gf": 0, "gc": 2, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-09-07", "rival": "NIR", "resultado": "W", "gf": 3, "gc": 1, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-10-10", "rival": "LUX", "resultado": "W", "gf": 4, "gc": 0, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-10-13", "rival": "NIR", "resultado": "W", "gf": 1, "gc": 0, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-11-14", "rival": "LUX", "resultado": "W", "gf": 2, "gc": 0, "competicion": "Clasificatorias WC"},
+      {"fecha": "2025-11-17", "rival": "SVK", "resultado": "W", "gf": 6, "gc": 0, "competicion": "Clasificatorias WC"}
+    ],
+    "proximos_partidos": [
+      {"fecha": "2026-06-14", "rival": "CUW", "competicion": "Mundial 2026 - Grupo E"},
+      {"fecha": "2026-06-20", "rival": "CIV", "competicion": "Mundial 2026 - Grupo E"},
+      {"fecha": "2026-06-25", "rival": "ECU", "competicion": "Mundial 2026 - Grupo E"}
+    ]
+  },
+  "CUW": {
+    "nombre": "Curazao",
+    "grupo": "E",
+    "codigo_fifa": "CUW",
+    "confederacion": "CONCACAF",
+    "ranking_fifa": 82,
+    "valor_mercado_total": 26030000,
+    "jugadores_plantilla": 26,
+    "edad_promedio": 28.0,
+    "jugadores_extranjero_pct": 100.0,
+    "entrenador": "Dick Advocaat",
+    "logros": {
+      "campeon_caribe": 1
+    },
+    "estadisticas_generales": {
+      "partidos_jugados": 10,
+      "victorias": 4,
+      "empates": 3,
+      "derrotas": 3,
+      "goles_favor": 14,
+      "goles_contra": 12,
+      "diferencia_goles": 2,
+      "puntos": 15,
+      "porterias_a_cero": 3,
+      "tarjetas_amarillas": 12,
+      "tarjetas_rojas": 1
+    },
+    "partidos": [
+      {"fecha": "2026-05-30", "rival": "SCO", "resultado": "L", "gf": 1, "gc": 4, "competicion": "Amistoso"}
+    ],
+    "proximos_partidos": [
+      {"fecha": "2026-06-14", "rival": "GER", "competicion": "Mundial 2026 - Grupo E"},
+      {"fecha": "2026-06-20", "rival": "ECU", "competicion": "Mundial 2026 - Grupo E"},
+      {"fecha": "2026-06-25", "rival": "CIV", "competicion": "Mundial 2026 - Grupo E"}
+    ]
+  }
+}

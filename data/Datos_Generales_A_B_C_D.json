@@ -1,0 +1,91 @@
+{
+  "MEX": {
+    "nombre": "México",
+    "grupo": "A",
+    "codigo_fifa": "MEX",
+    "estadisticas_generales": {
+      "partidos_jugados": 3,
+      "victorias": 1,
+      "empates": 2,
+      "derrotas": 0,
+      "goles_favor": 3,
+      "goles_contra": 1,
+      "diferencia_goles": 2,
+      "puntos": 5,
+      "porterias_a_cero": 2,
+      "tarjetas_amarillas": 4,
+      "tarjetas_rojas": 0,
+      "edad_promedio": 27.4
+    },
+    "partidos": [
+      {
+        "fecha": "2026-03-28",
+        "rival": "Portugal",
+        "resultado": "D",
+        "goles_favor": 0,
+        "goles_contra": 0,
+        "competicion": "Amistoso",
+        "sede": "Local"
+      },
+      {
+        "fecha": "2026-03-31",
+        "rival": "Bélgica",
+        "resultado": "D",
+        "goles_favor": 1,
+        "goles_contra": 1,
+        "competicion": "Amistoso",
+        "sede": "Neutral"
+      },
+      {
+        "fecha": "2026-05-22",
+        "rival": "Ghana",
+        "resultado": "W",
+        "goles_favor": 2,
+        "goles_contra": 0,
+        "competicion": "Amistoso",
+        "sede": "Local"
+      }
+    ],
+    "proximos_partidos": [
+      {"fecha": "2026-06-11", "rival": "Sudáfrica", "competicion": "Mundial 2026 - Fase Grupos"},
+      {"fecha": "2026-06-18", "rival": "Corea del Sur", "competicion": "Mundial 2026 - Fase Grupos"},
+      {"fecha": "2026-06-24", "rival": "República Checa", "competicion": "Mundial 2026 - Fase Grupos"}
+    ]
+  },
+  "RSA": {
+    "nombre": "Sudáfrica",
+    "grupo": "A",
+    "codigo_fifa": "RSA",
+    "estadisticas_generales": {
+      "partidos_jugados": 10,
+      "victorias": 5,
+      "empates": 3,
+      "derrotas": 2,
+      "goles_favor": 16,
+      "goles_contra": 6,
+      "diferencia_goles": 10,
+      "puntos": 18,
+      "porterias_a_cero": 4,
+      "tarjetas_amarillas": 15,
+      "tarjetas_rojas": 1,
+      "edad_promedio": 28.9
+    },
+    "partidos": [
+      {"fecha": "2023-11-18", "rival": "Benín", "resultado": "W", "goles_favor": 2, "goles_contra": 1, "competicion": "Clasificatorias CAF", "sede": "Local"},
+      {"fecha": "2023-11-21", "rival": "Ruanda", "resultado": "L", "goles_favor": 0, "goles_contra": 2, "competicion": "Clasificatorias CAF", "sede": "Visita"},
+      {"fecha": "2024-06-07", "rival": "Nigeria", "resultado": "D", "goles_favor": 1, "goles_contra": 1, "competicion": "Clasificatorias CAF", "sede": "Visita"},
+      {"fecha": "2024-06-11", "rival": "Zimbabue", "resultado": "W", "goles_favor": 3, "goles_contra": 1, "competicion": "Clasificatorias CAF", "sede": "Local"},
+      {"fecha": "2025-03-21", "rival": "Lesoto", "resultado": "L", "goles_favor": 0, "goles_contra": 3, "competicion": "Clasificatorias CAF", "sede": "Local"},
+      {"fecha": "2025-03-25", "rival": "Benín", "resultado": "W", "goles_favor": 2, "goles_contra": 0, "competicion": "Clasificatorias CAF", "sede": "Neutral"},
+      {"fecha": "2025-09-05", "rival": "Lesoto", "resultado": "W", "goles_favor": 3, "goles_contra": 0, "competicion": "Clasificatorias CAF", "sede": "Neutral"},
+      {"fecha": "2025-09-09", "rival": "Nigeria", "resultado": "D", "goles_favor": 1, "goles_contra": 1, "competicion": "Clasificatorias CAF", "sede": "Local"},
+      {"fecha": "2025-10-10", "rival": "Zimbabue", "resultado": "D", "goles_favor": 0, "goles_contra": 0, "competicion": "Clasificatorias CAF", "sede": "Neutral"},
+      {"fecha": "2025-10-14", "rival": "Ruanda", "resultado": "W", "goles_favor": 3, "goles_contra": 0, "competicion": "Clasificatorias CAF", "sede": "Local"}
+    ],
+    "proximos_partidos": [
+      {"fecha": "2026-06-11", "rival": "México", "competicion": "Mundial 2026 - Fase Grupos"},
+      {"fecha": "2026-06-18", "rival": "República Checa", "competicion": "Mundial 2026 - Fase Grupos"},
+      {"fecha": "2026-06-24", "rival": "Corea del Sur", "competicion": "Mundial 2026 - Fase Grupos"}
+    ]
+  }
+}

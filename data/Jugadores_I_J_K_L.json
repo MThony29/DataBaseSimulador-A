@@ -1,0 +1,124 @@
+{
+  "FRA": [
+    {
+      "id": "FRA001",
+      "nombre": "Mike Maignan",
+      "posicion": "GK",
+      "fecha_nac": "03/07/1995",
+      "edad": 30,
+      "club": "AC Milan",
+      "valor_mercado": 20000000,
+      "partidos_jugados": 5,
+      "titular": 5,
+      "minutos_jugados": 450
+    },
+    {
+      "id": "FRA002",
+      "nombre": "Brice Samba",
+      "posicion": "GK",
+      "fecha_nac": "25/04/1994",
+      "edad": 32,
+      "club": "Stade Rennais FC",
+      "valor_mercado": 8000000,
+      "partidos_jugados": 0,
+      "titular": 0,
+      "minutos_jugados": 0
+    },
+    {
+      "id": "FRA003",
+      "nombre": "Robin Risser",
+      "posicion": "GK",
+      "fecha_nac": "02/12/2004",
+      "edad": 21,
+      "club": "RC Lens",
+      "valor_mercado": 25000000,
+      "partidos_jugados": 1,
+      "titular": 1,
+      "minutos_jugados": 90
+    },
+    {
+      "id": "FRA004",
+      "nombre": "William Saliba",
+      "posicion": "DF",
+      "fecha_nac": "24/03/2001",
+      "edad": 25,
+      "club": "Arsenal FC",
+      "valor_mercado": 90000000,
+      "partidos_jugados": 3,
+      "titular": 3,
+      "minutos_jugados": 270
+    },
+    {
+      "id": "FRA005",
+      "nombre": "Dayot Upamecano",
+      "posicion": "DF",
+      "fecha_nac": "27/10/1998",
+      "edad": 27,
+      "club": "Bayern Múnich",
+      "valor_mercado": 70000000,
+      "partidos_jugados": 5,
+      "titular": 5,
+      "minutos_jugados": 450
+    },
+    {
+      "id": "FRA006",
+      "nombre": "Ibrahima Konaté",
+      "posicion": "DF",
+      "fecha_nac": "25/05/1999",
+      "edad": 27,
+      "club": "Liverpool FC",
+      "valor_mercado": 50000000,
+      "partidos_jugados": 3,
+      "titular": 3,
+      "minutos_jugados": 270
+    },
+    {
+      "id": "FRA007",
+      "nombre": "Kylian Mbappé",
+      "posicion": "FW",
+      "fecha_nac": "20/12/1998",
+      "edad": 27,
+      "club": "Real Madrid CF",
+      "valor_mercado": 200000000,
+      "partidos_jugados": 4,
+      "titular": 4,
+      "minutos_jugados": 352
+    },
+    {
+      "id": "FRA008",
+      "nombre": "Michael Olise",
+      "posicion": "MF",
+      "fecha_nac": "12/12/2001",
+      "edad": 24,
+      "club": "Bayern Múnich",
+      "valor_mercado": 150000000,
+      "partidos_jugados": 5,
+      "titular": 5,
+      "minutos_jugados": 425
+    },
+    {
+      "id": "FRA009",
+      "nombre": "Aurélien Tchouaméni",
+      "posicion": "MF",
+      "fecha_nac": "27/01/2000",
+      "edad": 26,
+      "club": "Real Madrid CF",
+      "valor_mercado": 75000000,
+      "partidos_jugados": 2,
+      "titular": 2,
+      "minutos_jugados": 157
+    },
+    {
+      "id": "FRA010",
+      "nombre": "Warren Zaïre-Emery",
+      "posicion": "MF",
+      "fecha_nac": "08/03/2006",
+      "edad": 20,
+      "club": "París Saint-Germain FC",
+      "valor_mercado": 60000000,
+      "partidos_jugados": 2,
+      "titular": 1,
+      "minutos_jugados": 101
+    }
+  ]
+}

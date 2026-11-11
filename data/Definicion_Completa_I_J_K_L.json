@@ -1,0 +1,46 @@
+{
+  "grupo_i": {
+    "nombre": "Grupo I",
+    "equipos": [
+      {"id": "FRA", "nombre": "Francia", "codigo_fifa": "FRA"},
+      {"id": "SEN", "nombre": "Senegal", "codigo_fifa": "SEN"},
+      {"id": "IRQ", "nombre": "Irak", "codigo_fifa": "IRQ"},
+      {"id": "NOR", "nombre": "Noruega", "codigo_fifa": "NOR"}
+    ],
+    "partidos": [
+      {"fecha": "2026-06-16", "local": "FRA", "visitante": "SEN"},
+      {"fecha": "2026-06-16", "local": "IRQ", "visitante": "NOR"},
+      {"fecha": "2026-06-22", "local": "FRA", "visitante": "IRQ"},
+      {"fecha": "2026-06-22", "local": "NOR", "visitante": "SEN"},
+      {"fecha": "2026-06-26", "local": "NOR", "visitante": "FRA"},
+      {"fecha": "2026-06-26", "local": "SEN", "visitante": "IRQ"}
+    ]
+  },
+  "grupo_j": {
+    "nombre": "Grupo J",
+    "equipos": [
+      {"id": "BRA", "nombre": "Brasil", "codigo_fifa": "BRA"},
+      {"id": "COL", "nombre": "Colombia", "codigo_fifa": "COL"},
+      {"id": "JPN", "nombre": "Japón", "codigo_fifa": "JPN"},
+      {"id": "AUS", "nombre": "Australia", "codigo_fifa": "AUS"}
+    ]
+  },
+  "grupo_k": {
+    "nombre": "Grupo K",
+    "equipos": [
+      {"id": "ARG", "nombre": "Argentina", "codigo_fifa": "ARG"},
+      {"id": "CHL", "nombre": "Chile", "codigo_fifa": "CHL"},
+      {"id": "KSA", "nombre": "Arabia Saudita", "codigo_fifa": "KSA"},
+      {"id": "GRC", "nombre": "Grecia", "codigo_fifa": "GRC"}
+    ]
+  },
+  "grupo_l": {
+    "nombre": "Grupo L",
+    "equipos": [
+      {"id": "ENG", "nombre": "Inglaterra", "codigo_fifa": "ENG"},
+      {"id": "USA", "nombre": "Estados Unidos", "codigo_fifa": "USA"},
+      {"id": "URU", "nombre": "Uruguay", "codigo_fifa": "URU"},
+      {"id": "QAT", "nombre": "Catar", "codigo_fifa": "QAT"}
+    ]
+  }
+}

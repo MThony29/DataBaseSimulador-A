@@ -1,0 +1,8 @@
+data/
+├── equipos_info.json       → Datos generales, grupo, valor de mercado, resultados
+├── rendimiento_equipo.json → Estadísticas globales, eficiencia, posesión, goles
+├── jugadores.json          → Plantilla completa, datos personales, posición, valor
+├── estadisticas_jugadores.json → Métricas detalladas por jugador (por 90min)
+├── porteria.json           → Rendimiento de guardametas
+├── tiros.json              → Efectividad de disparos
+└── grupos.json             → Definición completa de los grupos E, F, H, I

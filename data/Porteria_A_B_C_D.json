@@ -1,0 +1,51 @@
+{
+  "MEX": {
+    "jugadores": {
+      "José Rangel Aguilar": {
+        "partidos_jugados": 3,
+        "minutos": 225,
+        "goles_recibidos": 1,
+        "goles_recibidos_por90": 0.40,
+        "porterias_a_cero": 2,
+        "paradas_realizadas": 7,
+        " porcentaje_paradas": 87.5
+      },
+      "Carlos Acevedo": {
+        "partidos_jugados": 1,
+        "minutos": 45,
+        "goles_recibidos": 0,
+        "goles_recibidos_por90": 0.00,
+        "porterias_a_cero": 1,
+        "paradas_realizadas": 2,
+        "porcentaje_paradas": 100.0
+      }
+    },
+    "estadisticas_equipo": {
+      "goles_recibidos_totales": 1,
+      "goles_recibidos_por90": 0.33,
+      "porterias_a_cero_porcentaje": 66.7,
+      "paradas_parte_alta": 3,
+      "paradas_parte_baja": 4
+    }
+  },
+  "RSA": {
+    "jugadores": {
+      "Ronwen Williams": {
+        "partidos_jugados": 10,
+        "minutos": 900,
+        "goles_recibidos": 6,
+        "goles_recibidos_por90": 0.60,
+        "porterias_a_cero": 4,
+        "paradas_realizadas": 22,
+        "porcentaje_paradas": 78.6
+      }
+    },
+    "estadisticas_equipo": {
+      "goles_recibidos_totales": 6,
+      "goles_recibidos_por90": 0.60,
+      "porterias_a_cero_porcentaje": 40.0,
+      "paradas_parte_alta": 8,
+      "paradas_parte_baja": 14
+    }
+  }
+}

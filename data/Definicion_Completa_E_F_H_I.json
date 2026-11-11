@@ -1,0 +1,46 @@
+{
+  "grupo_e": {
+    "nombre": "Grupo E",
+    "equipos": [
+      {"id": "GER", "nombre": "Alemania", "codigo_fifa": "GER"},
+      {"id": "CUW", "nombre": "Curazao", "codigo_fifa": "CUW"},
+      {"id": "ECU", "nombre": "Ecuador", "codigo_fifa": "ECU"},
+      {"id": "CIV", "nombre": "Costa de Marfil", "codigo_fifa": "CIV"}
+    ],
+    "partidos": [
+      {"fecha": "2026-06-14", "local": "GER", "visitante": "CUW"},
+      {"fecha": "2026-06-14", "local": "ECU", "visitante": "CIV"},
+      {"fecha": "2026-06-20", "local": "GER", "visitante": "ECU"},
+      {"fecha": "2026-06-20", "local": "CIV", "visitante": "CUW"},
+      {"fecha": "2026-06-25", "local": "CIV", "visitante": "GER"},
+      {"fecha": "2026-06-25", "local": "CUW", "visitante": "ECU"}
+    ]
+  },
+  "grupo_f": {
+    "nombre": "Grupo F",
+    "equipos": [
+      {"id": "FRA", "nombre": "Francia", "codigo_fifa": "FRA"},
+      {"id": "KOR", "nombre": "Corea del Sur", "codigo_fifa": "KOR"},
+      {"id": "GHA", "nombre": "Ghana", "codigo_fifa": "GHA"},
+      {"id": "CAN", "nombre": "Canadá", "codigo_fifa": "CAN"}
+    ]
+  },
+  "grupo_h": {
+    "nombre": "Grupo H",
+    "equipos": [
+      {"id": "POR", "nombre": "Portugal", "codigo_fifa": "POR"},
+      {"id": "MAR", "nombre": "Marruecos", "codigo_fifa": "MAR"},
+      {"id": "IRN", "nombre": "Irán", "codigo_fifa": "IRN"},
+      {"id": "PAN", "nombre": "Panamá", "codigo_fifa": "PAN"}
+    ]
+  },
+  "grupo_i": {
+    "nombre": "Grupo I",
+    "equipos": [
+      {"id": "BRA", "nombre": "Brasil", "codigo_fifa": "BRA"},
+      {"id": "COL", "nombre": "Colombia", "codigo_fifa": "COL"},
+      {"id": "JPN", "nombre": "Japón", "codigo_fifa": "JPN"},
+      {"id": "AUS", "nombre": "Australia", "codigo_fifa": "AUS"}
+    ]
+  }
+}

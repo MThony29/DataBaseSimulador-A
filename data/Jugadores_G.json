@@ -1,0 +1,114 @@
+{
+  "ESP": [
+    {
+      "id": "ESP001",
+      "nombre": "Unai Simón",
+      "posicion": "GK",
+      "fecha_nac": "11/06/1997",
+      "edad": "29",
+      "club": "Athletic Club",
+      "valor_mercado": "35000000",
+      "partidos_jugados": "6",
+      "titular": "6",
+      "minutos_jugados": "540"
+    },
+    {
+      "id": "ESP002",
+      "nombre": "Dani Carvajal",
+      "posicion": "DF",
+      "fecha_nac": "11/01/1992",
+      "edad": "34",
+      "club": "Real Madrid CF",
+      "valor_mercado": "18000000",
+      "partidos_jugados": "4",
+      "titular": "4",
+      "minutos_jugados": "360"
+    },
+    {
+      "id": "ESP003",
+      "nombre": "Aymeric Laporte",
+      "posicion": "DF",
+      "fecha_nac": "27/05/1994",
+      "edad": "32",
+      "club": "Al Nassr FC",
+      "valor_mercado": "12000000",
+      "partidos_jugados": "5",
+      "titular": "5",
+      "minutos_jugados": "450"
+    },
+    {
+      "id": "ESP004",
+      "nombre": "Pedri",
+      "posicion": "MF",
+      "fecha_nac": "25/11/2002",
+      "edad": "23",
+      "club": "FC Barcelona",
+      "valor_mercado": "90000000",
+      "partidos_jugados": "5",
+      "titular": "5",
+      "minutos_jugados": "435"
+    },
+    {
+      "id": "ESP005",
+      "nombre": "Gavi",
+      "posicion": "MF",
+      "fecha_nac": "05/08/2004",
+      "edad": "21",
+      "club": "FC Barcelona",
+      "valor_mercado": "80000000",
+      "partidos_jugados": "4",
+      "titular": "4",
+      "minutos_jugados": "340"
+    }
+  ],
+  "JPN": [
+    {
+      "id": "JPN001",
+      "nombre": "Zion Suzuki",
+      "posicion": "GK",
+      "fecha_nac": "21/08/2002",
+      "edad": "23",
+      "club": "Parma Calcio",
+      "valor_mercado": "12000000",
+      "partidos_jugados": "8",
+      "titular": "8",
+      "minutos_jugados": "720"
+    },
+    {
+      "id": "JPN002",
+      "nombre": "Takehiro Tomiyasu",
+      "posicion": "DF",
+      "fecha_nac": "05/11/1998",
+      "edad": "27",
+      "club": "Arsenal FC",
+      "valor_mercado": "18000000",
+      "partidos_jugados": "7",
+      "titular": "7",
+      "minutos_jugados": "630"
+    },
+    {
+      "id": "JPN003",
+      "nombre": "Wataru Endo",
+      "posicion": "MF",
+      "fecha_nac": "09/02/1993",
+      "edad": "33",
+      "club": "Liverpool FC",
+      "valor_mercado": "22000000",
+      "partidos_jugados": "8",
+      "titular": "8",
+      "minutos_jugados": "710"
+    },
+    {
+      "id": "JPN004",
+      "nombre": "Kaoru Mitoma",
+      "posicion": "FW",
+      "fecha_nac": "20/05/1997",
+      "edad": "29",
+      "club": "Brighton & Hove Albion",
+      "valor_mercado": "40000000",
+      "partidos_jugados": "6",
+      "titular": "6",
+      "minutos_jugados": "520"
+    }
+  ]
+}

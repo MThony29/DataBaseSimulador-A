@@ -1,0 +1,28 @@
+{
+  "GER": {
+    "tiros_totales": 103,
+    "tiros_al_arco": 37,
+    "porcentaje_tiros_al_arco": 35.9,
+    "goles_por_tiro": 0.15,
+    "goles_por_tiro_al_arco": 0.41,
+    "tiros_dentro_area_pct": 78.2,
+    "tiros_fuera_area_pct": 21.8,
+    "penales_ejecutados": 1,
+    "penales_anotados": 1,
+    "xg_por_partido": 2.85,
+    "xg_diferencia": -0.22
+  },
+  "CUW": {
+    "tiros_totales": 78,
+    "tiros_al_arco": 29,
+    "porcentaje_tiros_al_arco": 37.2,
+    "goles_por_tiro": 0.18,
+    "goles_por_tiro_al_arco": 0.48,
+    "tiros_dentro_area_pct": 65.4,
+    "tiros_fuera_area_pct": 34.6,
+    "penales_ejecutados": 2,
+    "penales_anotados": 1,
+    "xg_por_partido": 1.35,
+    "xg_diferencia": 0.05
+  }
+}

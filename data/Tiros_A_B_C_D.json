@@ -1,0 +1,44 @@
+{
+  "MEX": {
+    "tiros_totales": 14,
+    "tiros_al_arco": 6,
+    "porcentaje_tiros_al_arco": 42.8,
+    "goles_por_tiro": 0.21,
+    "goles_por_tiro_al_arco": 0.50,
+    "tiros_fuera_area": 5,
+    "tiros_dentro_area": 9,
+    "penales_ejecutados": 0,
+    "penales_anotados": 0
+  },
+  "RSA": {
+    "tiros_totales": 42,
+    "tiros_al_arco": 18,
+    "porcentaje_tiros_al_arco": 42.8,
+    "goles_por_tiro": 0.38,
+    "goles_por_tiro_al_arco": 0.89,
+    "tiros_fuera_area": 17,
+    "tiros_dentro_area": 25,
+    "penales_ejecutados": 0,
+    "penales_anotados": 0
+  },
+  "ESP": {
+    "tiros_totales": 118,
+    "tiros_al_arco": 44,
+    "porcentaje_tiros_al_arco": 37.3,
+    "goles_por_tiro": 0.12,
+    "goles_por_tiro_al_arco": 0.32,
+    "tiros_dentro_area_pct": 84.5,
+    "tiros_fuera_area_pct": 15.5,
+    "xg_por_partido": 2.75
+  },
+  "JPN": {
+    "tiros_totales": 110,
+    "tiros_al_arco": 40,
+    "porcentaje_tiros_al_arco": 36.3,
+    "goles_por_tiro": 0.11,
+    "goles_por_tiro_al_arco": 0.27,
+    "tiros_dentro_area_pct": 76.4,
+    "tiros_fuera_area_pct": 23.6,
+    "xg_por_partido": 1.85
+  }
+}

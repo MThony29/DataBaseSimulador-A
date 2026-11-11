@@ -1,0 +1,52 @@
+{
+  "FRA": {
+    "jugadores": {
+      "Mike Maignan": {
+        "partidos_jugados": 5,
+        "minutos": 450,
+        "goles_recibidos": 3,
+        "goles_recibidos_por90": 0.60,
+        "porterias_a_cero": 3,
+        "paradas_realizadas": 3,
+        "porcentaje_paradas": 50.0,
+        "salvadas_dificiles": 2
+      },
+      "Lucas Chevalier": {
+        "partidos_jugados": 1,
+        "minutos": 90,
+        "goles_recibidos": 1,
+        "goles_recibidos_por90": 1.00,
+        "porterias_a_cero": 0,
+        "paradas_realizadas": 0,
+        "porcentaje_paradas": 0.0
+      }
+    },
+    "equipo": {
+      "goles_recibidos_totales": 4,
+      "goles_recibidos_por90": 0.67,
+      "porterias_a_cero_pct": 50.0,
+      "paradas_totales": 3,
+      "despejes_por90": 5.3,
+      "bloqueos_por90": 1.2
+    }
+  },
+  "SEN": {
+    "jugadores": {
+      "Édouard Mendy": {
+        "partidos_jugados": 8,
+        "minutos": 720,
+        "goles_recibidos": 5,
+        "goles_recibidos_por90": 0.62,
+        "porterias_a_cero": 4,
+        "paradas_realizadas": 18,
+        "porcentaje_paradas": 78.3
+      }
+    },
+    "equipo": {
+      "goles_recibidos_totales": 5,
+      "goles_recibidos_por90": 0.62,
+      "porterias_a_cero_pct": 50.0,
+      "paradas_totales": 18
+    }
+  }
+}

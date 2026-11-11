@@ -1,0 +1,55 @@
+{
+  "FRA": {
+    "tiros_totales": 131,
+    "tiros_al_arco": 46,
+    "porcentaje_tiros_al_arco": 35.1,
+    "goles_por_tiro": 0.11,
+    "goles_por_tiro_al_arco": 0.33,
+    "tiros_dentro_area_pct": 82.4,
+    "tiros_fuera_area_pct": 17.6,
+    "penales_ejecutados": 2,
+    "penales_anotados": 2,
+    "xg_por_partido": 2.92,
+    "xg_diferencia": -0.42,
+    "tiros_bloqueados_por90": 4.83
+  },
+  "SEN": {
+    "tiros_totales": 90,
+    "tiros_al_arco": 33,
+    "porcentaje_tiros_al_arco": 36.6,
+    "goles_por_tiro": 0.13,
+    "goles_por_tiro_al_arco": 0.36,
+    "tiros_dentro_area_pct": 74.5,
+    "tiros_fuera_area_pct": 25.5,
+    "penales_ejecutados": 1,
+    "penales_anotados": 1,
+    "xg_por_partido": 1.45,
+    "xg_diferencia": 0.05
+  },
+  "IRQ": {
+    "tiros_totales": 70,
+    "tiros_al_arco": 24,
+    "porcentaje_tiros_al_arco": 34.3,
+    "goles_por_tiro": 0.12,
+    "goles_por_tiro_al_arco": 0.37,
+    "tiros_dentro_area_pct": 68.2,
+    "tiros_fuera_area_pct": 31.8,
+    "penales_ejecutados": 0,
+    "penales_anotados": 0,
+    "xg_por_partido": 1.05,
+    "xg_diferencia": 0.07
+  },
+  "NOR": {
+    "tiros_totales": 116,
+    "tiros_al_arco": 42,
+    "porcentaje_tiros_al_arco": 36.2,
+    "goles_por_tiro": 0.12,
+    "goles_por_tiro_al_arco": 0.33,
+    "tiros_dentro_area_pct": 76.4,
+    "tiros_fuera_area_pct": 23.6,
+    "penales_ejecutados": 1,
+    "penales_anotados": 1,
+    "xg_por_partido": 1.85,
+    "xg_diferencia": -0.10
+  }
+}

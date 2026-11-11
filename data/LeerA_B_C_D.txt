@@ -1,0 +1,7 @@
+data/
+├── equipos_info.json       → Datos generales, resultados, partidos jugados
+├── rendimiento_equipo.json → Estadísticas globales por equipo
+├── jugadores.json          → Datos generales de cada jugador
+├── estadisticas_jugadores.json → Estadísticas detalladas por jugador
+├── porteria.json           → Estadísticas específicas de guardametas
+└── tiros.json              → Estadísticas de disparos y efectividad

@@ -1,0 +1,106 @@
+{
+  "MEX": [
+    {
+      "id": "MEX001",
+      "nombre": "José Rangel Aguilar",
+      "posicion": "GK",
+      "edad": 26,
+      "edad_dias": "26-091",
+      "partidos_jugados": 3,
+      "titular": 3,
+      "minutos_jugados": 225
+    },
+    {
+      "id": "MEX002",
+      "nombre": "Jesús Gallardo",
+      "posicion": "DF",
+      "edad": 31,
+      "edad_dias": "31-285",
+      "partidos_jugados": 3,
+      "titular": 3,
+      "minutos_jugados": 212
+    },
+    {
+      "id": "MEX003",
+      "nombre": "Brian Gutiérrez",
+      "posicion": "MF,FW",
+      "edad": 22,
+      "edad_dias": "22-344",
+      "partidos_jugados": 3,
+      "titular": 3,
+      "minutos_jugados": 198
+    },
+    {
+      "id": "MEX004",
+      "nombre": "César Montes",
+      "posicion": "DF",
+      "edad": 29,
+      "edad_dias": "29-092",
+      "partidos_jugados": 2,
+      "titular": 2,
+      "minutos_jugados": 180
+    },
+    {
+      "id": "MEX005",
+      "nombre": "Johan Vásquez",
+      "posicion": "DF",
+      "edad": 27,
+      "edad_dias": "27-217",
+      "partidos_jugados": 2,
+      "titular": 2,
+      "minutos_jugados": 180
+    }
+  ],
+  "RSA": [
+    {
+      "id": "RSA001",
+      "nombre": "Ronwen Williams",
+      "posicion": "GK",
+      "edad": 34,
+      "edad_dias": "34",
+      "partidos_jugados": 10,
+      "titular": 10,
+      "minutos_jugados": 900
+    },
+    {
+      "id": "RSA002",
+      "nombre": "Teboho Mokoena",
+      "posicion": "MF",
+      "edad": 29,
+      "edad_dias": "29",
+      "partidos_jugados": 9,
+      "titular": 9,
+      "minutos_jugados": 801
+    },
+    {
+      "id": "RSA003",
+      "nombre": "Khuliso Mudau",
+      "posicion": "DF",
+      "edad": 30,
+      "edad_dias": "30",
+      "partidos_jugados": 8,
+      "titular": 8,
+      "minutos_jugados": 720
+    },
+    {
+      "id": "RSA004",
+      "nombre": "Aubrey Modiba",
+      "posicion": "DF",
+      "edad": 30,
+      "edad_dias": "30",
+      "partidos_jugados": 7,
+      "titular": 7,
+      "minutos_jugados": 623
+    },
+    {
+      "id": "RSA005",
+      "nombre": "Oswin Appollis",
+      "posicion": "MF",
+      "edad": 24,
+      "edad_dias": "24",
+      "partidos_jugados": 8,
+      "titular": 5,
+      "minutos_jugados": 489
+    }
+  ]
+}

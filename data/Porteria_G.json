@@ -1,0 +1,38 @@
+{
+  "ESP": {
+    "jugadores": {
+      "Unai Simón": {
+        "partidos": "6",
+        "minutos": "540",
+        "goles_recibidos": "2",
+        "goles_recibidos_por90": "0.33",
+        "porterias_a_cero": "4",
+        "paradas_realizadas": "14",
+        "porcentaje_paradas": "87.5"
+      }
+    },
+    "equipo": {
+      "goles_recibidos_totales": "2",
+      "goles_recibidos_por90": "0.33",
+      "porterias_a_cero_pct": "66.7"
+    }
+  },
+  "JPN": {
+    "jugadores": {
+      "Zion Suzuki": {
+        "partidos": "8",
+        "minutos": "720",
+        "goles_recibidos": "4",
+        "goles_recibidos_por90": "0.50",
+        "porterias_a_cero": "5",
+        "paradas_realizadas": "22",
+        "porcentaje_paradas": "84.6"
+      }
+    },
+    "equipo": {
+      "goles_recibidos_totales": "4",
+      "goles_recibidos_por90": "0.50",
+      "porterias_a_cero_pct": "62.5"
+    }
+  }
+}

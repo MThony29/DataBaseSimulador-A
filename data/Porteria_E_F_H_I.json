@@ -1,0 +1,44 @@
+{
+  "GER": {
+    "jugadores": {
+      "Oliver Baumann": {
+        "partidos": 6,
+        "minutos": 540,
+        "goles_recibidos": 3,
+        "goles_recibidos_por90": 0.50,
+        "porterias_a_cero": 4,
+        "paradas_realizadas": 10,
+        "porcentaje_paradas": 76.9,
+        "salvadas_dificiles": 3
+      }
+    },
+    "equipo": {
+      "goles_recibidos_totales": 3,
+      "goles_recibidos_por90": 0.50,
+      "porterias_a_cero_pct": 66.7,
+      "paradas_totales": 10,
+      "despejes_por90": 4.2
+    }
+  },
+  "CUW": {
+    "jugadores": {
+      "Eloy Room": {
+        "partidos": 10,
+        "minutos": 900,
+        "goles_recibidos": 12,
+        "goles_recibidos_por90": 1.20,
+        "porterias_a_cero": 3,
+        "paradas_realizadas": 31,
+        "porcentaje_paradas": 72.1,
+        "salvadas_dificiles": 8
+      }
+    },
+    "equipo": {
+      "goles_recibidos_totales": 12,
+      "goles_recibidos_por90": 1.20,
+      "porterias_a_cero_pct": 30.0,
+      "paradas_totales": 31,
+      "despejes_por90": 7.8
+    }
+  }
+}
